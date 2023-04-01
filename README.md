@@ -1,10 +1,5 @@
-# COGS118A Project template
-This is your group repo for your final project for COGS118A
+# COGS118A Supvr/Mach Learning Algorithms Final Project
 
-This repository is publicly visible! We will be using that feature to do peer review of projects.
+In this project, we build prediction models that predict whether or not someone has heart disease based on their health status and ethnographic data. We cleaned the 2020 CDC survey data of 400k adults and choose the features including Smoking, Stroke, PhysicalHealth, DiffWalking, AgeCategory,Diabetic, PhysicalActivity, GenHealth, and KidneyDisease. We split the data into training and testing set, and used gridsearch with four algorithms (Logistic Regression, KNN, Decision Tree, Random Forest) to find four sets of best hyperparameters. We compared the results on the test set, using accuracy and recall as evaluation metrics, and used a 10-fold cross validation to further select the best model, adding roc_auc_score and mean squared error as our metric. Among the four, we decide that best_logistic is the best model. It generates around 73.45% accuracy and has a roc for about 75.3% with the smallest standard deviation across folds.
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook).
-
-This is your repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all.
-
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+[Final Report](https://github.com/YiyaoL/COGS118AFinalProject_Group045-Sp22/blob/main/FinalProject_group045.ipynb)
